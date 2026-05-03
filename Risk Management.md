@@ -1,3 +1,6 @@
+#### Risk = **uncertainty + potential impact**
+- **Uncertainty** → it may or may not happen
+- **Impact** → if it happens, it causes loss, damage, or disruption
 # Risk Management:
 
 The process of Identifying, Analyzing, treating, monitoring and reporting risk.
@@ -9,9 +12,13 @@ The process of Identifying, Analyzing, treating, monitoring and reporting risk.
 2. **Risk Analysis**
 	- Analyzing potential impact of the risk. 
 	- Type :
-		- Qualitative 
+		- **Qualitative** 
+			- Subjective and high-level view of risk
 			- descriptive and categorical scales.
-		- Quantitative 
+			- assessing risk based on their potential impact and likelihood
+			- Low, Medium, High
+		- **Quantitative** 
+			- Objective and numeric evaluation of risk
 	- Prioritize risk based on their severity.
 
 3. **Risk Treatment**
@@ -132,18 +139,84 @@ The process of Identifying, Analyzing, treating, monitoring and reporting risk.
 		- unavoidable delay before counter measure be deployed.
 ### Risk Appetite :
 - org approach towards risk taking.
+- willingness to take on a risk.
 - **Expansionary risk appetite :**
 	- org is ready to take more risk in the hopes of achieving higher results
 - **Conservative risk appetite :**
 	- org prefer to take less risk - even if it means it leads to lower returns
 - **Neutral risk appetite :**
 	- balance btn risk and return.
+
 ### Key Risk Indicators (KRI) :
 - Predictive metric 
 - Signal rising risk levels before a problem actually happens. 
-- Allow org to take proactive steps to manage the risk before it escalates.
+- Allow org to take **proactive** steps to manage the risk before it escalates.
 - Example:
-	- Number of failed login attempts inc
-	- Unpatched vulnerabilities count inc
+	- Number of failed login attempts increase
+	- Unpatched vulnerabilities count increase
+
 ### Risk Owner :
 - Person or grp responsible for managing the risk.
+
+### Quantitative Risk Analysis :
+- Objective and numeric view of the risk.
+- Evaluation of risk using numeric measurements.
+- <u>Component used in Quantitative Risk Analysis</u> :
+	- #### Exposure Factor (EF) :
+		- Proportion of asserts lost in an event.
+		- **in %**
+			- 0% - no loss
+			- 100% - total loss
+	- #### Single Loss Expectancy (SLE) :
+		- **Monetary** value expected to be lost in a single event.
+		- **SLE = Assert value * EF**
+	- #### Annualized Rate of Occurrence (ARO) :
+		- Estimated frequency with which a threat is expected to occur within a year.
+	- #### Annualized Loss Expectancy (ALE) :
+		- Expected Annual loss from a risk
+		- **ALE = ARO * SLE**
+
+### Risk Management Strategy (Risk treatment) :
+#### Risk transference (risk sharing) :
+- **Shifting** risk from org to another party.
+- **Don't** eliminate he risk 
+-  Done through:
+	- insurance
+	- contract indemnity clauses. 
+#### Risk Acceptance :
+- Recognizing the risk.
+- No measure to mitigate immediately  
+- address it when arises.
+- ways:
+	- ##### Exemption
+		- Provision that allow a party to be exception from a specific rule or requirement.
+		- example:
+			- Financial regulation - A small fintech company is exempted from certain reporting requirement. No administrative burden of compliance as well.   
+	- ##### Exception
+		- Provision that permit a party to bypass a rule in **certain situation**. 
+#### Risk Avoidance :
+- Change in plans or approaches to completely eliminate a specific risk.
+#### Risk Mitigation :
+- implementing measure to decrease the likelihood or impact of a risk.
+
+### Risk Monitoring and Reporting :
+- tracking  identifying risks
+- assessing new risks
+- response
+- evaluating their effectiveness during project lifecycle.
+- help in identifying 
+	- **Residual risk**
+		- likelihood and impact of a risk after its mitigation, transference, acceptance measures
+	- **Control risk**
+		- assessment of how much security measure has lost its effectiveness overtime.
+		- Example:
+			- Anti-virus Software used to work on signature 
+			- now they are no more effective as hackers have started to hide their code.
+- **Risk report** :
+	- used to report the details on risk to higher management and stakeholders
+	- monthly risk report, yearly risk report etc.
+- This process ensure following:
+	- **Informed Decision making**
+	- **Risk mitigation**
+	- **Stakeholder communication**
+	- **Regulatory compliance**
