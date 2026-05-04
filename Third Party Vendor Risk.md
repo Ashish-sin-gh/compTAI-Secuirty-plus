@@ -95,12 +95,52 @@
 - Dictates roles, responsibilities and repercussions.
 #### Service level agreement (SLA)
 - The type of services Client can expect from the vendor 
+- **quality**, **timelines**, and **scope** of the services provided by a new third-party vendor.
 - example 
-	- for a IT service vendor - 2 hour downtime max for the servers or client can charge a fee if fails 
+	- for a IT service vendor - 2 hour downtime max for the servers or client can charge a fee if fails.
 #### MoA and MoU
 - **Memorandum of Agreement**
 	- formal 
 	- Outline the roles and responsibilities of party involved.
 - **Memorandum of Understandings** 
 	- Less Binding 
-	- Declaration of mutual intent 
+	- Declaration of mutual intent  
+	- Example:
+		- 2 parties exploring intent for future partnership and broad strokes (not in-depth) of that partnership
+#### Master Service Agreement (MSA) 
+- Act as a Blanket agreement 
+- **foundational terms and conditions** for their entire working relationship
+- covers general term of engagement btn parties across multiple transactions.
+	```
+	Company A + Vendor B 
+			↓ 
+	Sign MSA once (covers all future work) 
+			↓ 
+	Project 1 → quick "Statement of Work" (SOW) 
+	Project 2 → quick "Statement of Work" (SOW) 
+	Project 3 → quick "Statement of Work" (SOW)
+	```
+#### Statement of Work (SOW)
+- AKA Scope of Work
+- Specify detail of particular project
+	- Deliverables 
+	- Timeline 
+	- milestone
+#### Non-Disclosure Agreement (NDA)
+- Commitment to **privacy**.
+- Ensure that any sensitive info **shared during negotiation** remains confidential btn both parties.
+
+#### Business Partnership Agreement (BPA)
+- aka **Join Venture Agreement (JVA)**
+- Used when 2 entities pool their resources for mutual benefits. 
+	- Nature of partnership 
+	- Profit sharing mechanism 
+	- Decision-making structure 
+	- Exit strategy 
+- Example 
+	- 2 firms - jointly launch a product
+	- BPA - 
+		1. who does what.
+		2. ownership of IP right
+		3. Distribution of revenue 
+### 
